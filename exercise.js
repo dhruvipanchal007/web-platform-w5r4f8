@@ -89,5 +89,23 @@
 // let username= prompt('what is your name?')
 // console.log(username)
 
+// ex=18
+// let isadult=confirm('are you 18 years older?');
+// if(isadult){
+// console.log('you are adult')
+// }
+// else{
+  // console.log('you are not an adult')
+// }
+
+// ex=19
+// let name;
+// console.log('Hello Dhruvi')
+
+// ex=20
+let fnumber=prompt('enter first number')
+let number=prompt('enter second number')
+consol.log(fnumber+number)
+
 
 
