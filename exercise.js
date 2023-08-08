@@ -1,15 +1,12 @@
 // {exercise1}
 // let name="dhruvi";
 
-
 // {exe2}
 // let age=20;
-
 
 // {ex 3}
 // let strnumber="42";
 // let age=Number(strnumber);
-
 
 // {ex 4}
 // let x=5;
@@ -46,31 +43,30 @@
 // let k="banana"
 // console.log(h>k)
 
-
 // {ex=11}
 // let ismorning=true;
 // if(ismorning){
-  // console.log('hello')
+// console.log('hello')
 // }
 
 // {ex=12}
 // let isEvening=true
 // if(isEvening){
-  // console.log('goodbye')
+// console.log('goodbye')
 // }
 
 // {ex=13}
 // let x=2
 // let y=3
 // if(x > 0 && y>0){
-  // console.log('both greater than zero')
+// console.log('both greater than zero')
 // }
 
 // {ex=14}
 // let a=5
 // let b=10
 // if(a===10 || b===10){
-  // console .log('a or b is eual to 10')
+// console .log('a or b is eual to 10')
 // }
 
 // {ex =15}
@@ -95,7 +91,7 @@
 // console.log('you are adult')
 // }
 // else{
-  // console.log('you are not an adult')
+// console.log('you are not an adult')
 // }
 
 // ex=19
@@ -103,15 +99,14 @@
 // console.log('Hello Dhruvi')
 
 // ex=20
-let fnumber=prompt('enter first number')
-let number=prompt('enter second number')
-consol.log(fnumber+number)
-
+// let fnumber=prompt('enter first number')
+// let number=prompt('enter second number')
+// consol.log(fnumber+number)
 
 function xyz() {
   // var i = 0;
   for (let i = 0; i < 3; i++) {
-    for (let j = 0; i < 2; j++) {
+    for (let j = 0; j < 2; j++) {
       console.log(i, j);
     }
   }
@@ -119,4 +114,3 @@ function xyz() {
 }
 xyz();
 // console.log(i)
-
