@@ -108,4 +108,15 @@ let number=prompt('enter second number')
 consol.log(fnumber+number)
 
 
+function xyz() {
+  // var i = 0;
+  for (let i = 0; i < 3; i++) {
+    for (let j = 0; i < 2; j++) {
+      console.log(i, j);
+    }
+  }
+  console.log('i is: ', i);
+}
+xyz();
+// console.log(i)
 
