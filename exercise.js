@@ -103,14 +103,59 @@
 // let number=prompt('enter second number')
 // consol.log(fnumber+number)
 
+// always => return
 function xyz() {
-  // var i = 0;
+  // hoisting
   for (let i = 0; i < 3; i++) {
     for (let j = 0; j < 2; j++) {
       console.log(i, j);
     }
+    // console.log(j);
   }
-  console.log('i is: ', i);
+  // console.log('i is: ', i);
+  return 10;
 }
-xyz();
+const a = xyz();
+console.log(a);
 // console.log(i)
+
+function sum(num1, num2) {
+  const ans = num1 + num2;
+  return ans;
+}
+
+function Sum(num1, num2) {
+  return num1 + num2;
+}
+
+function mul(num1, num2) {
+  const ans = num1 * num2;
+  return ans;
+}
+
+function div(no1, no2) {
+  const ans = no1 / no2;
+  if (ans === 2) {
+    return 50;
+  } else if (ans === 5) {
+    return 10;
+  }
+  return 5 * 2 + (9 / 20) * 30; // expression => evulate
+}
+
+const x = sum(10, 20);
+const y = sum(20, 20);
+const z = mul(20, 20);
+// console.log(y)
+// console.log(z)
+const w = div(10, 5); // 2
+console.log(w);
+console.log(sum(10, 200));
+
+let i=1;
+while(i<=10);
+alert(i);
+i++;
+
+for(let i=0;i<=10;i++)
+console.log(i);
